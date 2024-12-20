@@ -13,13 +13,14 @@ Este proyecto realiza un análisis sobre la evaluación docente utilizando difer
 
 
 Modelos adicionales que se deben instalar en la terminal:
+   ```bash
+   nltk.download('vader_lexicon')
+   nltk.download('stopwords')
+   nltk.download('wordnet')
+   nltk.download('omw-1.4')
 
-nltk.download('vader_lexicon')
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
-
-python -m spacy download es_core_news_sm
+   python -m spacy download es_core_news_sm
+   ```
 
 ## Archivos en el repositorio
 - EvaluacionDocente.ipynb: Este es el archivo principal que contiene el código para el análisis. Abre este archivo en un entorno Jupyter Notebook o cualquier plataforma compatible para ejecutar el código.
